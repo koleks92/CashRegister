@@ -2,7 +2,7 @@ function checkCashRegister(price, cash, cid) {
   let change = cash - price;
   let cidSum = 0; // Sum in register
   let changeArr = [];
-  
+   
   cid = cid.reverse();
 
   // Const because its not gonna change and shouldnt
